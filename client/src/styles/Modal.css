@@ -1,0 +1,62 @@
+ .modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .modalContent {
+    position: relative;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 3;
+    height: 600px;
+    width: 500px;
+  }
+
+  .btn-cerrar-carrito{
+    font-size: 35px;
+    margin-right: 420px;
+
+  }
+
+  .Pedidos{
+    padding: 30px;
+  }
+
+  .Pedidos li {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+
+  .tituloProducto{
+    font-size: x-large;
+  }
+
+.precioProducto {
+  font-size: medium;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#btn-Comprar {
+  position: absolute;
+  bottom: 20px;
+  right: 20px; 
+}
+
+
+  /*Z-index es para que el modal aparesca frente a todo el contenido de la página*/
+  
+  
